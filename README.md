@@ -128,6 +128,8 @@ curl -X POST "http://localhost:<PORT>/api/auth/bootstrap-admin" \
 
 If you are using the live deployment.
 
+live deployment link: https://internship-learning-management-syst.vercel.app/
+
 Login AS Admin use this Gmail & Password:
 Gmail : admin@gmail.com
 Password: Shara@123
@@ -236,25 +238,4 @@ The goal was to use AI the way you would pair‑program with a colleague: as a s
 pair of eyes, not as a code generator that replaces understanding.
 
 ---
-
-## Notes about submission
-
-If you are reviewing this as part of the internship assignment, here is how to look at it:
-
-- The **backend** is focused on clear, explicit business logic and RBAC.
-- The **frontend** tries to stay minimal but readable, with React components that
-  are small enough to follow in an interview.
-- The **tests** are intentionally not exhaustive but target the non‑negotiable rules
-  from the assignment.
-- The codebase is small enough that I can comfortably explain any file or function
-  line‑by‑line in a follow‑up round.
-
-For submission I would typically:
-
-1. Push this repository to a **public GitHub repo**.
-2. Include a short **test report** (screenshot or terminal output of `npm test`).
-3. Add a couple of **screenshots** of each dashboard (student, mentor, admin).
-4. Optionally deploy the frontend + backend (e.g. Render/Netlify + MongoDB Atlas) and
-   share the live URL in this README.
-
 
