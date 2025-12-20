@@ -1,5 +1,7 @@
 ## Internship Learning Management System (LMS)
 
+Live Demo Link: https://internship-learning-management-syst.vercel.app/
+
 This project is a **full‑stack internship Learning Management System** with strict
 **Role‑Based Access Control (RBAC)**. It simulates a small internship platform where
 students follow a structured course, mentors design and manage that course, and admins
